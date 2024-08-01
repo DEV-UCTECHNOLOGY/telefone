@@ -30,11 +30,11 @@ export default function App() {
      * and start previewing.
      */
     init({
-      username: "9999", // your extension
+      username: "12345", // your extension
       // secret get form pbx
       secret:
-        "eyJleHBpcmUiOjAsInNpZ24iOiJhZldUcCt4Vm1paXMxaENESGtlZHkrN2ZTUERxTnlOU3RIQVZzTmx1Q1NBPSIsInVzZXJuYW1lIjoiOTk5OSIsInZlcnNpb24iOiIxLjAifQ__",
-      pbxURL: "https://fibrasa.ras.yeastar.com", // your pbx URL
+        "secret key",
+      pbxURL: "https://yourpbxurl.com", // your pbx URL
       disableCallWaiting: true // disabled call waiting,only handle one call.
     })
       .then(({ phone, pbx, destroy }) => {
