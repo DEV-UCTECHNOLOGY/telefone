@@ -1,0 +1,20 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .incoming {
+    position: fixed;
+    right: 10px;
+    top: 140px;
+    width: 300px;
+    /* height: 200px; */
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .auth-invalid-tip {
+    position: fixed;
+    bottom: 10px;
+    padding: 10px;
+  }
+  
